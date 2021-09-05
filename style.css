@@ -89,7 +89,7 @@ p{
 
 th{
     font-family: "Gentium Basic", serif;
-    font-size: 20px;
+    font-size: 10px;
     color: #ffffff;
     line-height: 30px;
     text-align: left;
@@ -246,6 +246,10 @@ footer ul li a {
     }
     main h4{
         font-size: 25px;
+    }
+
+    th{
+        font-size: 20px;
     }
 }
 

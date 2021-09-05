@@ -41,7 +41,7 @@ table img {
 header h1 {
     font-family: "Gentium Basic", serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 40px;
     color: #ffffff;
     line-height: 50px;
     text-transform: uppercase;
@@ -51,7 +51,7 @@ header h1 {
 header h2 {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: 10px;
     color: #ffffff;
     line-height: 50px;
@@ -62,7 +62,7 @@ header h2 {
 main h3 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     letter-spacing: 3px;
     color: #ffffff;
     text-transform: uppercase;
@@ -73,7 +73,7 @@ main h3 {
 main h4{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 16px;
     letter-spacing: 3px;
     color: #ffffff;
     text-transform: uppercase;
@@ -84,7 +84,7 @@ main h4{
 
 p{
     font-family: "Gentium Basic", serif;
-    font-size: 20px;
+    font-size: 10px;
     color: #ffffff;
     line-height: 30px;
     text-align: justify;
@@ -122,7 +122,7 @@ header nav ul li {
 nav ul li a {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     letter-spacing: 3px;
     color: #ffffff;
     text-transform: uppercase;
@@ -230,31 +230,32 @@ footer ul li a {
     .disclaimer1{
         display: none;
     }
+
+    header h1 {
+        font-size: 60px;
+    }
+        
+    header h2 {
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        font-size: 24px;
+    }
+    
+    main h3 {
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+    }
+    main h4{
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 1650px) {  
     .disclaimer2 {
         display: none;
-    }
-    header h1 {
-        font-size: 40px;
-    }
-        
-    header h2 {
-        font-size: 12px;
-    }
-
-    nav ul li a {
-        font-size: 14px;
-    }
-    
-    main h3 {
-        font-size: 14px;
-    }
-    p{
-        font-size: 10px;
-    }
-    main h4{
-        font-size: 16px;
     }
 }

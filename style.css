@@ -1,0 +1,239 @@
+html{
+    background-color: black;
+}
+
+.Erinevad-retseptid img {
+    width: 100%;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+table img {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    position: relative;
+    -webkit-flex-basis: 500px;
+    -moz-flex-basis: 500px;
+    flex-basis: 500px;
+}
+
+.Meie-kokad{
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: "Gentium Basic", serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+header h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 10px;
+    color: #ffffff;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+main h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+p{
+    font-family: "Gentium Basic", serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+th{
+    font-family: "Gentium Basic", serif;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 100px; 
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: space-around;
+    -o-flex-flow: row wrap;
+    justify-content: space-around;
+}
+    
+header nav ul li {
+    display: inline-block;
+    padding: 16px 16px;
+}
+
+nav ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer {
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    background-color:rgb(41, 40, 40);
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.disclaimer {
+    display: none;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+    
+footer ul li {
+    display: block;
+    padding-left: 10px;
+    
+}
+    
+footer ul li p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+    
+footer ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: white;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer-sm {
+    width: 32px;
+    float: right;
+}
+    
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Retseptipilt {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-flex-basis: 500px;
+    -moz-flex-basis: 500px;
+    flex-basis: 500px;
+}
+
+.Erinevad-retseptid {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: space-around;
+    -o-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.container{
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    font-family: "Gentium Basic", serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 850px) {   
+    .disclaimer3 {
+        display: none;
+    }
+
+    .disclaimer1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1650px) {  
+    .disclaimer2 {
+        display: none;
+    }
+}

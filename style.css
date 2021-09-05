@@ -52,7 +52,7 @@ header h2 {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 12px;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
     color: #ffffff;
     line-height: 50px;
     text-transform: uppercase;
@@ -237,6 +237,7 @@ footer ul li a {
         
     header h2 {
         font-size: 18px;
+        letter-spacing: 10px;
     }
 
     nav ul li a {

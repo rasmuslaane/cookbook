@@ -230,6 +230,30 @@ footer ul li a {
     .disclaimer1{
         display: none;
     }
+
+    header h1 {
+        font-size: 40px;
+    }
+        
+    header h2 {
+        font-size: 12px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+    
+    main h3 {
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+    }
+    main h4{
+        font-size: 16px;
+    }
+
+
 }
 
 @media only screen and (max-width: 1650px) {  
